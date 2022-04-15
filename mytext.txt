@@ -1,0 +1,4 @@
+//this text is insterted by using fstream
+//this text is insterted by using fstream
+this get insterted
+helo
