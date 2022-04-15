@@ -41,7 +41,12 @@ int main ()
     
     //this satement read line by line so it neads a string to fold the line
 
-    //!!!the charters are now get extracted from file object so use carfully
+    //!!!the charters are now get  from file object so use carfully
+    //we need to re-position the the file to initital 
+    //1. clear the flagtate
+    input.clear();
+    //2.by using seekg got the positiono
+    input.seekg(0, ios::beg);
   cout<<"\n#==============textfile================#"<<endl;
 
     string line;//line holds the whole everyline
