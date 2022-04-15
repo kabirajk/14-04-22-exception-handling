@@ -41,7 +41,7 @@ int main ()
     
     //this satement read line by line so it neads a string to fold the line
 
-    //!!!use get or getline at a time dont use both //!!clarify on this 
+    //!!!the charters are now get extracted from file object so use carfully
   cout<<"\n#==============textfile================#"<<endl;
 
     string line;//line holds the whole everyline
