@@ -45,7 +45,7 @@ int main ()
     //we need to re-position the the file to initital 
     //1. clear the flagtate
     input.clear();
-    //2.by using seekg got the positiono
+    //2.by using seekg to get  the position
     input.seekg(0, ios::beg);
   cout<<"\n#==============textfile================#"<<endl;
 
